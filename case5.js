@@ -81,6 +81,6 @@ function ant(n) {
 
 // const c = concat(iter([iter([1,3,4]),iter([1,3,4])]));
 // const g = group(iter('11'));
-for (let a of uniter(ant(100))) {
+for (let a of uniter(ant(10))) {
     process.stdout.write(`${a}`);
 }

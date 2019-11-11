@@ -22,6 +22,6 @@ function* next(g) {
     }
     yield* [count, prev];
 }
-for (let a of ant(100)) {
+for (let a of ant(10)) {
     process.stdout.write(`${a}`);
 }

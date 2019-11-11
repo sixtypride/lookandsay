@@ -1,5 +1,5 @@
 let s = '1';
-for (let line = 0; line < 50; line++) {
+for (let line = 0; line < 10; line++) {
     let length = 1;
     let head = s.charAt(0);
     let result = '';

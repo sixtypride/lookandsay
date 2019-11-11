@@ -39,6 +39,6 @@ function next(ns) {
     return concat(map(g => [g.length, g[0]], group(ns)));
 }
 
-for (let a of ant(100)) {
+for (let a of ant(10)) {
     process.stdout.write(`${a}`);
 }
